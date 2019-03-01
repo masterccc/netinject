@@ -27,7 +27,7 @@ Choose one of the list and the prompt will let you choose data you want to injec
 
 # Compilation
 
-Works for 32 and 32 bits architectures, edit Makefile to adjust :
+Works for 32 and 64 bits architectures, edit Makefile to adjust :
 
 Leave original content for 32 bits :
 
