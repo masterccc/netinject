@@ -5,7 +5,7 @@ Inject data into an already opened TCP connection.
 
 # Description
 
-NetInject uses ptrace library to inject data into one of the process's network sockets. It works by live editing the process's memory and add instructions to write in file descriptors corresponding to TCP sockets.
+NetInject uses ptrace library to inject data into one of the process' network sockets. It works by live editing the process memory and add instructions to write in file descriptors corresponding to TCP sockets.
 
 (Not sure if it's the fastest way, if you have a better way to do that, I'd like to know it)
 
@@ -30,10 +30,11 @@ Choose one of the list and the prompt will let you choose data you want to injec
 Works for 32 and 32 bits architectures, edit Makefile to adjust :
 
 Leave original content for 32 bits :
+
 ``` gcc -o netinject netinject.o design.o ```
 
 
 Add ```-DX64``` for 64 bits support :
 
-```gcc -o netinject netinject.o design.o```
+```gcc -DX64 -o netinject netinject.o design.o```
 
