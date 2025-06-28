@@ -1,4 +1,7 @@
 # NetInject
+
+You may want to check this project instead : https://github.com/masterccc/jinsock
+
 Inject data into an already opened TCP connection.
 
 ![alt text](https://raw.githubusercontent.com/masterccc/netinject/master/screenshot.png)
